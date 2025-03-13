@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 40px auto;
+    max-width: 600px;
+    background-image: url("./styles/flores-color-verde-modeloeucalipto.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+    
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+/* When element is visible */
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+}

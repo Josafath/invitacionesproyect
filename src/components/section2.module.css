@@ -1,0 +1,25 @@
+
+.section2 {
+    background-color: #95af8f;
+    color: white;
+    font-size: clamp(16px, 2vw, 20px); /* Responsive font size */
+    margin: 0;
+    text-align: center;
+    padding: 5vh 5vw; /* Adjust padding for responsiveness */
+    font-weight: normal;
+    max-width: 800px; /* Prevents excessive stretching */
+    margin: 0 auto; /* Centers the content */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section2 {
+        padding: 5vh 8vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .section2 {
+        padding: 4vh 5vw;
+    }
+}

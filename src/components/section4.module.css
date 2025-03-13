@@ -1,0 +1,13 @@
+.section4 {
+          text-align: center;
+          font-family: Arial, sans-serif;
+          padding: 30% 20px 0 20px;        
+          color: black;
+       
+          background-image: url('./styles/flores-color-verde-modeloeucalipto.png');
+          background-size: 500px;
+          height: 40vh;
+          background-repeat: no-repeat;
+          position: relative;
+          font-family: "Dancing Script", serif;
+}
