@@ -4,3 +4,10 @@ html,
 body {
   background-color: #EEF3F1;
 }
+
+
+/* ✅ Disable Scroll */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh; /* Prevent vertical scroll */
+}

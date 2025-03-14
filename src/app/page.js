@@ -11,10 +11,12 @@ import Section8 from "@/components/Section8";
 import Section9 from "@/components/Section9";
 import Section10 from "@/components/Section10";
 import Section11 from "@/components/Section11";
+import Audio from '@/components/Audio';
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Audio />
       <Section1 />
       <Section2 />
       <Section3 />

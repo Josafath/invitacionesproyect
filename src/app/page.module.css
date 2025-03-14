@@ -2,7 +2,7 @@
 .page {
   position: relative;
   z-index: 2;
-  width: 90%; /* Makes it flexible */
+  width: 95%; /* Makes it flexible */
   max-width: 400px; /* Prevents it from getting too big */
   margin: 5px auto 50px auto;
   box-shadow: 0 0 20px black;
